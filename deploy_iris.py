@@ -16,7 +16,7 @@ def predict_iris_variety(sepal_lenght,sepal_width,petal_lenght,petal_width):
 
 def Input_Output():
     st.title("Iris Variety Prediction")
-    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6jv1EQ73VX_ZyArbTiOdEmW2T6ZZojbj6fIofPbmaA&s", width=600)
+    st.image("https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.lac.inpe.br%2F~rafael.santos%2FDocs%2FCAP394%2FWholeStory-Iris.html&psig=AOvVaw0dHqp9AXzkHOyhGO6pEE1L&ust=1709288407697000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDz29Sp0IQDFQAAAAAdAAAAABAE", width=600)
     
     st.markdown("You are using Streamlit...",unsafe_allow_html=True)
     sepal_lenght = st.text_input("Enter Sepal Lenght" , ".")
